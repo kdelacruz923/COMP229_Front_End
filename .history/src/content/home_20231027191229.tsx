@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function Home()
 {
     useEffect(()=>{
-        document.title = "Home";
-    });
+        document.title = "About Us";
+
     return(
         <div className="container">
             <h1 className="mb-5">Welcome to our Site</h1>

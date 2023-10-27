@@ -8,7 +8,7 @@ import Header from './components/header';
 
 //content components
 import Home from './content/home';
-import About from './content/about';
+import a
 
 //Styles and Fonts\
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,7 +26,6 @@ function App() {
       <Routes>
         <Route path="/"  element={<Home />} />
         <Route path="/home"  element={<Home />} />
-        <Route path="/about" element={<About />} />
       </Routes>
      
      <Footer></Footer>
