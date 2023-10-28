@@ -10,8 +10,6 @@ import Header from './components/header';
 import Home from './content/home';
 import About from './content/about';
 import Projects from './content/project';
-import Services from './content/services';
-import Contact from './content/contact';
 
 //Styles and Fonts\
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,9 +28,6 @@ function App() {
         <Route path="/"  element={<Home />} />
         <Route path="/home"  element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
      
      <Footer></Footer>
